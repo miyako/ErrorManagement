@@ -160,8 +160,6 @@ When using the **ON ERR CALL**("MethodName") command in 4D, a custom error handl
 
 However, if another error handler was already in place, it is important to save it before activating a new one. This allows it to be restored once the current process is complete, preventing disruption to the rest of the application.
 
-For this purpose, the **Method called on error** command is used, which returns the name of the currently active error handler (or an empty string if none exists). It is stored in a variable, for example:
-
 For this purpose, the **Method called on error** command is used, which returns the name of the currently active error handler (or an empty string if none is set). It is stored in a variable, for example:
 
 ```4d
