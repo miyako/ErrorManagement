@@ -1,0 +1,131 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Button": {
+					"type": "button",
+					"text": "Testing Try() ",
+					"top": 136,
+					"left": 104,
+					"width": 169,
+					"height": 108,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button.4dm"
+				},
+				"Button1": {
+					"type": "button",
+					"text": "Testing ON ERR CALL ",
+					"top": 136,
+					"left": 489,
+					"width": 225,
+					"height": 108,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button1.4dm"
+				},
+				"Text": {
+					"type": "text",
+					"text": "The Try() keyword enables developers to execute an expression enclosed in parentheses and seamlessly intercept any errors thrown during its execution.\rLink to the 4D blog : https://blog.4d.com/a-new-way-to-handle-errors/\r",
+					"top": 21,
+					"left": 38,
+					"width": 351,
+					"height": 77
+				},
+				"Text1": {
+					"type": "text",
+					"text": "ON ERR CALL command installs the project method, whose name you pass in errorMethod, as the method for catching (trapping) errors for the defined execution context in the current project.\rLink to 4D Blog : https://blog.4d.com/enhanced-error-management-in-4d-code/",
+					"top": 14,
+					"left": 437,
+					"width": 296,
+					"height": 123
+				},
+				"Button2": {
+					"type": "button",
+					"text": "Testing Throw() ",
+					"top": 382,
+					"left": 104,
+					"width": 169,
+					"height": 108,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button2.4dm"
+				},
+				"Button3": {
+					"type": "button",
+					"text": "Testing Try catch() ",
+					"top": 382,
+					"left": 489,
+					"width": 225,
+					"height": 108,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button3.4dm"
+				},
+				"Text2": {
+					"type": "text",
+					"text": "You can use the throw command to explicitly throw an error and provide a specific error message and error number Link to 4D blog : https://blog.4d.com/a-new-way-to-handle-errors/ ",
+					"top": 273,
+					"left": 38,
+					"width": 351,
+					"height": 77
+				},
+				"Text3": {
+					"type": "text",
+					"text": "This 4D example demonstrates nested Try/Catch blocks where each thrown error is caught and collected into a Collection via Last errors, resulting in a collection containing both errors. Link to 4D Blog : https://blog.4d.com/try-catch-code-blocks-unveiled/",
+					"top": 273,
+					"left": 430,
+					"width": 372,
+					"height": 108
+				}
+			}
+		}
+	],
+	"geometryStamp": 73,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm"
+}
