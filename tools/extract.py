@@ -68,6 +68,11 @@ def is_code_font(span):
     return any(f in font_of(span) for f in CODE_FONTS)
 
 
+def is_all_code_font(item):
+    spans = [s for s in item["spans"] if s["text"].strip()]
+    return bool(spans) and all(is_code_font(s) for s in spans)
+
+
 def is_code_line(item, body_x):
     if any((s["color"] in CODE_COLORS or is_code_font(s)) and s["text"].strip() for s in item["spans"]):
         return True
@@ -81,6 +86,8 @@ def is_heading(fonts, size):
 
 def is_caption(item):
     spans = [s for s in item["spans"] if s["text"].strip()]
+    if any(is_code_font(s) or s["color"] in CODE_COLORS for s in spans):
+        return False
     italic = all(("Italic" in font_of(s) or "Oblique" in font_of(s)) for s in spans)
     return bool(spans) and (italic or not CFG["caption"]["italic"]) and item["x"] > CFG["caption"]["min_x"]
 
@@ -244,7 +251,7 @@ def extract_body(doc):
                 prev = it
                 continue
 
-            if it["x"] != body_x and is_code_line(it, body_x):
+            if (it["x"] != body_x or is_all_code_font(it)) and is_code_line(it, body_x):
                 flush_para(); flush_bullets()
                 state["code"].append(it)
                 prev = it

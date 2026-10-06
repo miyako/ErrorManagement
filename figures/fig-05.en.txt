@@ -1,0 +1,14 @@
+Syntax Error
+Error when executing the method "testTryCatch" at line number 4
+Division by zero!
+throw(-12345;
+ivision by zero!
+Details
+Edit
+Trace
+Continue
+Process 5 P_11
+Save...
+Copy
+Description
+Division by zero!

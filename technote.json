@@ -46,10 +46,10 @@
   },
   "caption": {
     "italic": true,
-    "min_x": 70
+    "min_x": 612
   },
   "table": {
-    "size": 9
+    "size": null
   },
-  "$comment": "Document-specific settings. Run `make inspect` and review; see tools/config.py for all keys and defaults."
+  "$comment": "Document-specific settings. Run `make inspect` and review; see tools/config.py for all keys and defaults. caption.min_x=612 disables captions (this note has none; its italic 'Note:' is body text). table.size=null because the 9pt SegoeUIHistoric text is code, not table cells."
 }

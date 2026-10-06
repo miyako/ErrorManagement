@@ -1,0 +1,49 @@
+eee
+Debug: P_2
+TestTryCatch
+Call Chain
+Expression
+Value
+Q Line Objects
+> g) TesttiyCatch
+& Current Form Values
+@ Constants
+> Semaphores
+& Processes
+Tables & Fields
+Expression
+Value
+Last errors
+error")]
+Sets
+[Last errors.length
+1
+[= Named Selections
+© information
+Last errors{o]
+{“errCode":123,"componentSignature":"host","message":"First
+© web
+[Last errors[0].componentSignature "host"
+Last errors[0].errCode
+123
+[Last errors[0].message
+“First error"
+var $errors
+Collection
+$errors:=New collection()
+y try
+throw(123;
+‘irst error"
+ALERT("this alert will not be executed")
+y Catch
+econd error")
+10
+y Catch
+1
+$errors.push(Last errors)
+12
+// $errors collection contains the two previous errors
+13
+End try
+14
+End try

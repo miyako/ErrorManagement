@@ -1,0 +1,14 @@
+Syntax Error
+Error when executing the method "testOnErrorCall" at line number 11
+Access denied
+$fileHandle.writ
+Details
+Edit
+Trace
+Continue
+Process 5 P1
+Save...
+Copy
+Description
+5
+Access denied
