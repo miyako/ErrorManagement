@@ -37,6 +37,28 @@ Full-width `（）` and `：` in prose. First occurrence of a technical term: �
 
 | English | 日本語 | Notes |
 |---|---|---|
+| error handler / handler | エラー処理メソッド | Official docs also use エラーハンドラー; this note uses エラー処理メソッド throughout |
+| install (a handler) | インストールする | |
+| intercept | インターセプトする | First occurrence: インターセプト（横取り） |
+| catch / capture | キャッチする / キャプチャーする | |
+| throw | スローする | |
+| scope (ek local / ek global / ek errors from components) | ローカルスコープ / グローバルスコープ / コンポーネントスコープ | Constant names stay in English |
+| error stack | エラースタック | |
+| deferred error / deferred mode | 遅延エラー / 遅延モード | |
+| component signature | （コンポーネントの）署名 | |
+| execution context | 実行コンテキスト | |
+| host database | ホストデータベース | Kept "database" as in the source (docs: ホストプロジェクト) |
+| database folder | データベースフォルダー | |
+| On Startup method | On Startup データベースメソッド | |
+| system error dialog | システムエラーダイアログ | |
+| Abort / Continue / Trace / Edit (error dialog buttons) | 中止 / 続行 / トレース / 編集 | To verify against the Japanese 4D UI |
+| syntax / runtime / logical / network / resource error | 構文エラー / ランタイムエラー / 論理エラー / ネットワークエラー / リソースエラー | |
+| Technical Note | テクニカルノート | |
+
+## Commands and keywords kept in English
+
+ON ERR CALL, Method called on error, Last errors, throw, Try, Catch, End try, ABORT, Error method, Error line,
+Error formula, LOG EVENT. Property names (errCode, message, componentSignature, deferred) also stay in English.
 
 ## Proper nouns in examples
 
