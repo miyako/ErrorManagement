@@ -62,5 +62,4 @@ See the [localisation template](https://github.com/miyako/4d-technote-localisati
 ## Credits
 
 - Original: Karim Meghraoui, Technical Support Engineer, 4D Morocco. Technical Note 25-09.
-- Translation: Keisuke Miyako
 - Produced with [4d-technote-localisation-template](https://github.com/miyako/4d-technote-localisation-template) and GitHub Copilot.
