@@ -2,12 +2,12 @@
 var $errors : Collection
 $errors:=New collection:C1472()
 Try
-	throw:C1805(123; "First error")
-	ALERT:C41("this alert will not be executed")
+	throw:C1805(123; Localized string("ErrorFirst"))
+	ALERT:C41(Localized string("AlertNotExecuted"))
 Catch
 	$errors.push(Last errors:C1799)
 	Try
-		throw:C1805(456; "Second error")
+		throw:C1805(456; Localized string("ErrorSecond"))
 	Catch
 		$errors.push(Last errors:C1799)
 		// $errors collection contains the two previous errors

@@ -19,7 +19,7 @@ $obFile:=Folder:C1567(fk logs folder:K87:17).file("errors.json")
 If (Not:C34($obFile.exists))
 	$created:=$obFile.create()
 	If (Not:C34($created))
-		LOG EVENT:C667(Into 4D diagnostic log:K38:8; "Unable to create error file!"; Error message:K38:3)
+		LOG EVENT:C667(Into 4D diagnostic log:K38:8; Localized string("LogErrorFileCreationFailed"); Error message:K38:3)
 	End if 
 	$colJSON:=[]
 Else 

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="messages" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="LogRuntimeError" resname="LogRuntimeError">
+				<source>Runtime error!</source>
+				<target>ランタイムエラー！</target>
+			</trans-unit>
+			<trans-unit id="LogErrorFileCreationFailed" resname="LogErrorFileCreationFailed">
+				<source>Unable to create error file!</source>
+				<target>エラーファイルを作成できません！</target>
+			</trans-unit>
+			<trans-unit id="ErrorDivisionByZero" resname="ErrorDivisionByZero">
+				<source>Division by zero!</source>
+				<target>ゼロによる除算です！</target>
+			</trans-unit>
+			<trans-unit id="ErrorFirst" resname="ErrorFirst">
+				<source>First error</source>
+				<target>1つ目のエラー</target>
+			</trans-unit>
+			<trans-unit id="ErrorSecond" resname="ErrorSecond">
+				<source>Second error</source>
+				<target>2つ目のエラー</target>
+			</trans-unit>
+			<trans-unit id="AlertNotExecuted" resname="AlertNotExecuted">
+				<source>this alert will not be executed</source>
+				<target>このアラートは実行されません</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

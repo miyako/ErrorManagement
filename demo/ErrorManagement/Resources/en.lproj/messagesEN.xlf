@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="messages" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="LogRuntimeError" resname="LogRuntimeError">
+				<source>Runtime error!</source>
+				<target>Runtime error!</target>
+			</trans-unit>
+			<trans-unit id="LogErrorFileCreationFailed" resname="LogErrorFileCreationFailed">
+				<source>Unable to create error file!</source>
+				<target>Unable to create error file!</target>
+			</trans-unit>
+			<trans-unit id="ErrorDivisionByZero" resname="ErrorDivisionByZero">
+				<source>Division by zero!</source>
+				<target>Division by zero!</target>
+			</trans-unit>
+			<trans-unit id="ErrorFirst" resname="ErrorFirst">
+				<source>First error</source>
+				<target>First error</target>
+			</trans-unit>
+			<trans-unit id="ErrorSecond" resname="ErrorSecond">
+				<source>Second error</source>
+				<target>Second error</target>
+			</trans-unit>
+			<trans-unit id="AlertNotExecuted" resname="AlertNotExecuted">
+				<source>this alert will not be executed</source>
+				<target>this alert will not be executed</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

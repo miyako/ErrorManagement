@@ -28,7 +28,7 @@
 		"onTimer",
 		"onBoundVariableChange"
 	],
-	"windowTitle": "window title",
+	"windowTitle": ":xliff:errorsTests_WindowTitle",
 	"destination": "detailScreen",
 	"pages": [
 		{
@@ -38,7 +38,7 @@
 			"objects": {
 				"Button": {
 					"type": "button",
-					"text": "Testing Try() ",
+					"text": ":xliff:errorsTests_BtnTry",
 					"top": 136,
 					"left": 104,
 					"width": 169,
@@ -50,7 +50,7 @@
 				},
 				"Button1": {
 					"type": "button",
-					"text": "Testing ON ERR CALL ",
+					"text": ":xliff:errorsTests_BtnOnErrCall",
 					"top": 136,
 					"left": 489,
 					"width": 225,
@@ -62,7 +62,7 @@
 				},
 				"Text": {
 					"type": "text",
-					"text": "The Try() keyword enables developers to execute an expression enclosed in parentheses and seamlessly intercept any errors thrown during its execution.\rLink to the 4D blog : https://blog.4d.com/a-new-way-to-handle-errors/\r",
+					"text": ":xliff:errorsTests_InfoTry",
 					"top": 21,
 					"left": 38,
 					"width": 351,
@@ -70,7 +70,7 @@
 				},
 				"Text1": {
 					"type": "text",
-					"text": "ON ERR CALL command installs the project method, whose name you pass in errorMethod, as the method for catching (trapping) errors for the defined execution context in the current project.\rLink to 4D Blog : https://blog.4d.com/enhanced-error-management-in-4d-code/",
+					"text": ":xliff:errorsTests_InfoOnErrCall",
 					"top": 14,
 					"left": 437,
 					"width": 296,
@@ -78,7 +78,7 @@
 				},
 				"Button2": {
 					"type": "button",
-					"text": "Testing Throw() ",
+					"text": ":xliff:errorsTests_BtnThrow",
 					"top": 382,
 					"left": 104,
 					"width": 169,
@@ -90,7 +90,7 @@
 				},
 				"Button3": {
 					"type": "button",
-					"text": "Testing Try catch() ",
+					"text": ":xliff:errorsTests_BtnTryCatch",
 					"top": 382,
 					"left": 489,
 					"width": 225,
@@ -102,7 +102,7 @@
 				},
 				"Text2": {
 					"type": "text",
-					"text": "You can use the throw command to explicitly throw an error and provide a specific error message and error number Link to 4D blog : https://blog.4d.com/a-new-way-to-handle-errors/ ",
+					"text": ":xliff:errorsTests_InfoThrow",
 					"top": 273,
 					"left": 38,
 					"width": 351,
@@ -110,7 +110,7 @@
 				},
 				"Text3": {
 					"type": "text",
-					"text": "This 4D example demonstrates nested Try/Catch blocks where each thrown error is caught and collected into a Collection via Last errors, resulting in a collection containing both errors. Link to 4D Blog : https://blog.4d.com/try-catch-code-blocks-unveiled/",
+					"text": ":xliff:errorsTests_InfoTryCatch",
 					"top": 273,
 					"left": 430,
 					"width": 372,
