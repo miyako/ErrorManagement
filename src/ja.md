@@ -77,7 +77,7 @@ var $previousErrorHandler : Text
 
 $previousErrorHandler:=Method called on error
 
-LOG EVENT(Into 4D diagnostic log; "Runtime error!"; Error message)
+LOG EVENT(Into 4D diagnostic log; Localized string("LogRuntimeError"); Error message)
 var $fileHandle : 4D.FileHandle:=Folder(Database folder).file("example.txt").open()
 
 If ($fileHandle#Null)
@@ -123,7 +123,7 @@ $obFile:=Folder(fk logs folder).file("errors.json")
 If (Not($obFile.exists))
     $created:=$obFile.create()
     If (Not($created))
-        LOG EVENT(Into 4D diagnostic log; "Unable to create error file!"; Error message)
+        LOG EVENT(Into 4D diagnostic log; Localized string("LogErrorFileCreationFailed"); Error message)
     End if
     $colJSON:=[]
 Else
@@ -246,15 +246,15 @@ $componentHandler:=Method called on error(ek errors from components)
 #DECLARE($dividend : Real; $divisor : Real)->$result : Real
 If ($divisor=0)
     $result:=0
-    throw(-12345; "Division by zero!")
+    throw(-12345; Localized string("ErrorDivisionByZero"))
 Else
     $result:=($dividend/$divisor)
 End if
 ```
 
-`throw (-12345; "Division by zero !")`
+`throw(-12345; Localized string("ErrorDivisionByZero"))`
 
-この命令は、コード -12345、メッセージ "Division by zero!" のエラーを発生させます。
+この命令は、コード -12345、メッセージ "Division by zero!"（日本語環境では「ゼロによる除算です！」）のエラーを発生させます。メッセージは **Localized string** コマンドで XLIFF ファイルから取得するため、アプリケーションの言語に応じて切り替わります。
 
 **ON ERR CALL** でエラー処理メソッドが定義されていれば、そのメソッドが呼び出されてエラーを処理します。
 
@@ -328,12 +328,12 @@ End if
 var $errors : Collection
 $errors:=New collection()
 Try
-    throw(123; "First error")
-    ALERT("this alert will not be executed")
+    throw(123; Localized string("ErrorFirst"))
+    ALERT(Localized string("AlertNotExecuted"))
 Catch
     $errors.push(Last errors)
     Try
-        throw(456; "Second error")
+        throw(456; Localized string("ErrorSecond"))
     Catch
         $errors.push(Last errors)
         // $errors collection contains the two previous errors
