@@ -1,0 +1,42 @@
+Debug: P_2
+TestTryCatch
+Expression
+Value
+Call Chain
+Q Line Objects
+> @) TestTryCatch
+Variables
+& Current Form Values
+@ Constants
+Semaphores
+@® Processes
+© Tables & Fields
+Expression
+Value
+GA Last errors
+null
+Sets
+= Named Selections
+Last errors.length 0
+@ Information
+© web
+var $errors
+Collection
+$errors:=New collection()
+y Catch
+3
+$errors.push(Last errors)
+vir
+9
+throw(456; "Second error")
+10
+vy Catch
+11
+$errors.push(Last errors)
+12
+// $errors collection contains the two previous errors
+13
+End try
+14
+End try
+reakpoint Reached

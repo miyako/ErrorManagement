@@ -1,0 +1,131 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": ":xliff:errorsTests_WindowTitle",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Button": {
+					"type": "button",
+					"text": ":xliff:errorsTests_BtnTry",
+					"top": 136,
+					"left": 104,
+					"width": 169,
+					"height": 108,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button.4dm"
+				},
+				"Button1": {
+					"type": "button",
+					"text": ":xliff:errorsTests_BtnOnErrCall",
+					"top": 136,
+					"left": 489,
+					"width": 225,
+					"height": 108,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button1.4dm"
+				},
+				"Text": {
+					"type": "text",
+					"text": ":xliff:errorsTests_InfoTry",
+					"top": 21,
+					"left": 38,
+					"width": 351,
+					"height": 77
+				},
+				"Text1": {
+					"type": "text",
+					"text": ":xliff:errorsTests_InfoOnErrCall",
+					"top": 14,
+					"left": 437,
+					"width": 296,
+					"height": 123
+				},
+				"Button2": {
+					"type": "button",
+					"text": ":xliff:errorsTests_BtnThrow",
+					"top": 382,
+					"left": 104,
+					"width": 169,
+					"height": 108,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button2.4dm"
+				},
+				"Button3": {
+					"type": "button",
+					"text": ":xliff:errorsTests_BtnTryCatch",
+					"top": 382,
+					"left": 489,
+					"width": 225,
+					"height": 108,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button3.4dm"
+				},
+				"Text2": {
+					"type": "text",
+					"text": ":xliff:errorsTests_InfoThrow",
+					"top": 273,
+					"left": 38,
+					"width": 351,
+					"height": 77
+				},
+				"Text3": {
+					"type": "text",
+					"text": ":xliff:errorsTests_InfoTryCatch",
+					"top": 273,
+					"left": 430,
+					"width": 372,
+					"height": 108
+				}
+			}
+		}
+	],
+	"geometryStamp": 73,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm"
+}

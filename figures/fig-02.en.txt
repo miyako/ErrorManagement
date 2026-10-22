@@ -1,0 +1,95 @@
+eco
+Debug: P_6
+ErrorWriteDoc
+Expression
+Value
+Call Chain
+@) ErrorwriteDoe
+Q Line Objects
+Test ON ERR CALL
+Variables
+Form Values,
+@ Constants
+Semaphores
+© Tebles & Fields
+Expression
+Value
+Last erro
+mponentSignature’
+box
+jeri
+v1
+ba Sets
+[Last errors.length
+@ information
+== Named Selections
+Last errors{o}
+{"errCode":5,"componentSignature":"xbox";"message":"Access denied "}
+© wer
+[Last errors{0].componentSignature
+"xbox"
+Last errors{0].errCode
+5
+[Last errors{0].message
+“access denied "
+$error:=Last errors
+209]
+¥ If (Gerror. length=0)
+$errorz=[{]
+End if
+$error[$error. length-1] .tim
+tring(Current date)+" "+String(Current time)
+$error[Serror. length-1] .app
+plication info
+ength=1.
+ersio
+=Application version
+$error[$error. length-1] .os:=System info.osVersion
+$error[$error. length-1]
+rror method
+$error[$error. length=1] . Line
+10
+Error line
+11
+$error[Serror. length-1] . formul
+formula
+12
+$obFile:=Folder(fk logs folder). file("errors. json")
+y If (Not($obFile.exists))
+13
+14
+$created:=$obFile.create()
+15
+y If (Not($created))
+16
+LOG EVENT(Into 4D diagnostic log;
+nable to create error file!
+Error message)
+17
+End if
+$colJSON:=[]
+18
+19
+y Else
+20
+$fileContent
+obFile.getText()
+21
+22
+\ $colJSON:=JSON Parse($fileContent)
+23
+y Else
+24
+$colJSON:=[]
+25
+End if
+End if
+26
+$coLJSON. push($error)
+27
+28
+$obFile. Stringify($colJSON; *))
+29
+30
+//ALERT("Write Error !
+‘Breakpoint Reached
