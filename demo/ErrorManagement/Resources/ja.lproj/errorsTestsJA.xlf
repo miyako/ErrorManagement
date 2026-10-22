@@ -24,11 +24,11 @@
 			</trans-unit>
 			<trans-unit id="errorsTests_InfoTry" resname="errorsTests_InfoTry">
 				<source>The Try() keyword enables developers to execute an expression enclosed in parentheses and seamlessly intercept any errors thrown during its execution.&#13;Link to the 4D blog : https://blog.4d.com/a-new-way-to-handle-errors/&#13;</source>
-				<target>Try() キーワードを使用すると、括弧で囲んだ式を実行し、その実行中にスローされたエラーをシームレスにインターセプトできます。&#13;4D ブログへのリンク：https://blog.4d.com/ja/a-new-way-to-handle-errors/&#13;</target>
+				<target>Try() キーワードを使用すると、括弧で囲んだ式を実行し、その実行中にスローされたエラーにシームレスに割り込めます。&#13;4D ブログへのリンク：https://blog.4d.com/ja/a-new-way-to-handle-errors/&#13;</target>
 			</trans-unit>
 			<trans-unit id="errorsTests_InfoOnErrCall" resname="errorsTests_InfoOnErrCall">
 				<source>ON ERR CALL command installs the project method, whose name you pass in errorMethod, as the method for catching (trapping) errors for the defined execution context in the current project.&#13;Link to 4D Blog : https://blog.4d.com/enhanced-error-management-in-4d-code/</source>
-				<target>ON ERR CALL コマンドは、errorMethod に名前を渡したプロジェクトメソッドを、カレントプロジェクトの指定した実行コンテキストでエラーをキャッチ（トラップ）するメソッドとしてインストールします。&#13;4D ブログへのリンク：https://blog.4d.com/ja/enhanced-error-management-in-4d-code/</target>
+				<target>ON ERR CALL コマンドは、errorMethod に名前を渡したプロジェクトメソッドを、カレントプロジェクトの指定した実行コンテキストでエラーを捕捉（トラップ）するメソッドとしてインストールします。&#13;4D ブログへのリンク：https://blog.4d.com/ja/enhanced-error-management-in-4d-code/</target>
 			</trans-unit>
 			<trans-unit id="errorsTests_InfoThrow" resname="errorsTests_InfoThrow">
 				<source>You can use the throw command to explicitly throw an error and provide a specific error message and error number Link to 4D blog : https://blog.4d.com/a-new-way-to-handle-errors/ </source>
@@ -36,7 +36,7 @@
 			</trans-unit>
 			<trans-unit id="errorsTests_InfoTryCatch" resname="errorsTests_InfoTryCatch">
 				<source>This 4D example demonstrates nested Try/Catch blocks where each thrown error is caught and collected into a Collection via Last errors, resulting in a collection containing both errors. Link to 4D Blog : https://blog.4d.com/try-catch-code-blocks-unveiled/</source>
-				<target>この 4D の例は、ネストした Try/Catch ブロックを示しています。スローされた各エラーはキャッチされ、Last errors を介してコレクションに集められるため、最終的にコレクションには両方のエラーが含まれます。&#13;4D ブログへのリンク：https://blog.4d.com/ja/try-catch-code-blocks-unveiled/</target>
+				<target>この 4D の例は、ネストした Try/Catch ブロックを示しています。スローされた各エラーは捕捉され、Last errors を介してコレクションに集められるため、最終的にコレクションには両方のエラーが含まれます。&#13;4D ブログへのリンク：https://blog.4d.com/ja/try-catch-code-blocks-unveiled/</target>
 			</trans-unit>
 		</body>
 	</file>
